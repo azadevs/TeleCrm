@@ -1,0 +1,655 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libtgvoip.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"include_directories",
+			"android_ndk_import_module_cpufeatures"
+		],
+		"files" : 
+		[
+			"voip/CMakeLists.txt",
+			"CMakeLists.txt",
+			"/Users/Azamat/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/AndroidNdkModules.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 354,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 668,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++17 -DANDROID -g -O0 -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-finline-functions"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-O3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-frtti"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-funroll-loops"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-math-errno"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ABSL_ALLOCATOR_NOTHROW=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BSD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BWE_TEST_LOGGING_COMPILE_TIME_ENABLE=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "FIXED_POINT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_LRINT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_LRINTF"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_NETINET_IN_H"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_PTHREAD"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LOCALE_NOT_USED"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "NULL=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "OPUS_BUILD"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTC_DISABLE_TRACE_EVENTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTC_ENABLE_VP9"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SCTP_PROCESS_LEVEL_LOCKS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SCTP_SIMPLE_ALLOCATOR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SOCKLEN_T=socklen_t"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TGVOIP_NO_DSP"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TGVOIP_NO_VIDEO"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "USE_ALLOCA"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "USE_KISS_FFT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_ANDROID"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_APM_DEBUG_DUMP=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_HAVE_DCSCTP"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_HAVE_SCTP"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_HAVE_USRSCTP"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_LINUX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_OPUS_SUPPORT_120MS_PTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_OPUS_VARIABLE_COMPLEXITY=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_POSIX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_USE_BUILTIN_ISAC_FLOAT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_USE_H264"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_LARGEFILE_SOURCE=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__EMX__"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__Userspace__"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__Userspace_os_Linux"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "restrict="
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/opus/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/opus/silk"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/opus/silk/fixed"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/opus/celt"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/opus"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/opus/opusfile"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/boringssl/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/webrtc"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/tgcalls"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/libtgvoip"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/webrtc/third_party/crc32c/src/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/sources/android/cpufeatures"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "tgvoip::@6890427a1f51a3e7e1df",
+	"name" : "tgvoip",
+	"nameOnDisk" : "libtgvoip.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/logging.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/VoIPController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/VoIPGroupController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/Buffers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/BlockingQueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/audio/AudioInput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/android/AudioInputOpenSLES.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/MediaStreamItf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/audio/AudioOutput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/OpusEncoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/android/AudioOutputOpenSLES.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/JitterBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/OpusDecoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/android/OpenSLEngineWrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/android/AudioInputAndroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/android/AudioOutputAndroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/EchoCanceller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/CongestionControl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/VoIPServerConfig.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/audio/Resampler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/NetworkSocket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/posix/NetworkSocketPosix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/PacketReassembler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/MessageThread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/json11.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/audio/AudioIO.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/video/VideoRenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/video/VideoSource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/video/ScreamCongestionController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/android/VideoSourceAndroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/libtgvoip/os/android/VideoRendererAndroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/tg_voip_jni.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

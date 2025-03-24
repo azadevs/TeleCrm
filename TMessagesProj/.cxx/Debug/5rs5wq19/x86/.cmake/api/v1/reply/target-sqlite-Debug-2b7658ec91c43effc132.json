@@ -1,0 +1,164 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libsqlite.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"target_compile_definitions",
+			"include_directories",
+			"android_ndk_import_module_cpufeatures"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/Users/Azamat/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/AndroidNdkModules.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 668,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-w -std=c11 -DANDROID -D_LARGEFILE_SOURCE=1 -g -ffunction-sections -fdata-sections -O0 -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Os"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ANDROID_ARMV6_IDCT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ANDROID_NDK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ANDROID_TILE_BASED_DECODE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AVOID_TABLES"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "DISABLE_IMPORTGL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_STRCHRNUL=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LOCALE_NOT_USED"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NULL=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SOCKLEN_T=socklen_t"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/sources/android/cpufeatures"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "sqlite::@6890427a1f51a3e7e1df",
+	"name" : "sqlite",
+	"nameOnDisk" : "libsqlite.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sqlite/sqlite3.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

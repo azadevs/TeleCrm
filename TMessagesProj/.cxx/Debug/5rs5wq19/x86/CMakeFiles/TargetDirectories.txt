@@ -1,0 +1,15 @@
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/tgnet.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/rlottie.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/flac.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/sqlite.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/breakpad.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/tgvoip.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/openh264.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/rnnoise.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/tgcalls_tp.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/tgcalls.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/voipandroid.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/tmessages.49.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/cpufeatures.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/edit_cache.dir
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,473 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "librnnoise.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"include_directories",
+			"android_ndk_import_module_cpufeatures"
+		],
+		"files" : 
+		[
+			"voip/CMakeLists.txt",
+			"CMakeLists.txt",
+			"/Users/Azamat/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/AndroidNdkModules.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 354,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 668,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-w -std=c11 -DANDROID -D_LARGEFILE_SOURCE=1 -g -ffunction-sections -fdata-sections -O0 -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-finline-functions"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-O3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-frtti"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-funroll-loops"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fexceptions"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-math-errno"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ABSL_ALLOCATOR_NOTHROW=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BSD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BWE_TEST_LOGGING_COMPILE_TIME_ENABLE=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_LRINT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_LRINTF"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_NETINET_IN_H"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_PTHREAD"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LOCALE_NOT_USED"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "NULL=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "OPUS_BUILD"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTC_DISABLE_TRACE_EVENTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "RTC_ENABLE_VP9"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SCTP_PROCESS_LEVEL_LOCKS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SCTP_SIMPLE_ALLOCATOR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SOCKLEN_T=socklen_t"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "USE_ALLOCA"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "USE_KISS_FFT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_ANDROID"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_APM_DEBUG_DUMP=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_HAVE_DCSCTP"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_HAVE_SCTP"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_HAVE_USRSCTP"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_LINUX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_OPUS_SUPPORT_120MS_PTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_OPUS_VARIABLE_COMPLEXITY=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_POSIX"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_USE_BUILTIN_ISAC_FLOAT"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WEBRTC_USE_H264"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_LARGEFILE_SOURCE=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__EMX__"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__STDC_LIMIT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__Userspace__"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__Userspace_os_Linux"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_celt_autocorr=rnnoise__celt_autocorr"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_celt_lpc=rnnoise__celt_lpc"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "celt_fir=rnnoise_celt_fir"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "celt_iir=rnnoise_celt_iir"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "celt_pitch_xcorr=rnnoise_celt_pitch_xcorr"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "compute_band_corr=rnnoise_compute_band_corr"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "compute_band_energy=rnnoise_compute_band_energy"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "compute_dense=rnnoise_compute_dense"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "compute_gru=rnnoise_compute_gru"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "compute_rnn=rnnoise_compute_rnn"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "interp_band_gain=rnnoise_interp_band_gain"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_fft_alloc=rnnoise_opus_fft_alloc"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_fft_alloc_arch_c=rnnoise_opus_fft_alloc_arch_c"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_fft_alloc_twiddles=rnnoise_opus_fft_alloc_twiddles"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_fft_c=rnnoise_opus_fft_c"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_fft_free=rnnoise_opus_fft_free"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_fft_free_arch_c=rnnoise_opus_fft_free_arch_c"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_fft_impl=rnnoise_opus_fft_impl"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "opus_ifft_c=rnnoise_opus_ifft_c"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "pitch_downsample=rnnoise_pitch_downsample"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "pitch_filter=rnnoise_pitch_filter"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "pitch_search=rnnoise_pitch_search"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "remove_doubling=rnnoise_remove_doubling"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "restrict="
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/rnnoise/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/sources/android/cpufeatures"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "rnnoise::@6890427a1f51a3e7e1df",
+	"name" : "rnnoise",
+	"nameOnDisk" : "librnnoise.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/rnnoise/src/celt_lpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/rnnoise/src/denoise.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/rnnoise/src/kiss_fft.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/rnnoise/src/pitch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/rnnoise/src/rnn_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/rnnoise/src/rnn_reader.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "voip/rnnoise/src/rnn.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

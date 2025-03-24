@@ -1,0 +1,2 @@
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/CMakeLists.txt
+/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/CMakeLists.txt

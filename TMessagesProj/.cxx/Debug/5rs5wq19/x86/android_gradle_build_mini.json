@@ -1,0 +1,100 @@
+{
+  "buildFiles": [
+    "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/CMakeLists.txt",
+    "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/Azamat/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/Azamat/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "breakpad::@6890427a1f51a3e7e1df": {
+      "artifactName": "breakpad",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libbreakpad.a",
+      "runtimeFiles": []
+    },
+    "voipandroid::@6890427a1f51a3e7e1df": {
+      "artifactName": "voipandroid",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libvoipandroid.a",
+      "runtimeFiles": []
+    },
+    "rlottie::@6890427a1f51a3e7e1df": {
+      "artifactName": "rlottie",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/librlottie.a",
+      "runtimeFiles": []
+    },
+    "flac::@6890427a1f51a3e7e1df": {
+      "artifactName": "flac",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libflac.a",
+      "runtimeFiles": []
+    },
+    "tgcalls::@6890427a1f51a3e7e1df": {
+      "artifactName": "tgcalls",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgcalls.a",
+      "runtimeFiles": []
+    },
+    "tgnet::@6890427a1f51a3e7e1df": {
+      "artifactName": "tgnet",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgnet.a",
+      "runtimeFiles": []
+    },
+    "tmessages.49::@6890427a1f51a3e7e1df": {
+      "artifactName": "tmessages.49",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/build/intermediates/cxx/Debug/5rs5wq19/obj/x86/libtmessages.49.so",
+      "runtimeFiles": []
+    },
+    "tgvoip::@6890427a1f51a3e7e1df": {
+      "artifactName": "tgvoip",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgvoip.a",
+      "runtimeFiles": []
+    },
+    "sqlite::@6890427a1f51a3e7e1df": {
+      "artifactName": "sqlite",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libsqlite.a",
+      "runtimeFiles": []
+    },
+    "tgcalls_tp::@6890427a1f51a3e7e1df": {
+      "artifactName": "tgcalls_tp",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgcalls_tp.a",
+      "runtimeFiles": []
+    },
+    "openh264::@6890427a1f51a3e7e1df": {
+      "artifactName": "openh264",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libopenh264.a",
+      "runtimeFiles": []
+    },
+    "cpufeatures::@6890427a1f51a3e7e1df": {
+      "artifactName": "cpufeatures",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "rnnoise::@6890427a1f51a3e7e1df": {
+      "artifactName": "rnnoise",
+      "abi": "x86",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/librnnoise.a",
+      "runtimeFiles": []
+    }
+  }
+}

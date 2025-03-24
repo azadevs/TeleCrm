@@ -1,0 +1,115 @@
+{
+  "buildFiles": [
+    "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/CMakeLists.txt",
+    "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni/voip/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/Azamat/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/Azamat/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "breakpad::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "breakpad",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libbreakpad.a"
+    },
+    "cpufeatures::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "cpufeatures",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libcpufeatures.a"
+    },
+    "flac::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "flac",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libflac.a"
+    },
+    "openh264::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "openh264",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libopenh264.a"
+    },
+    "rlottie::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "rlottie",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/librlottie.a"
+    },
+    "rnnoise::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "rnnoise",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/librnnoise.a"
+    },
+    "sqlite::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "sqlite",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libsqlite.a"
+    },
+    "tgcalls::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "tgcalls",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgcalls.a"
+    },
+    "tgcalls_tp::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "tgcalls_tp",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgcalls_tp.a"
+    },
+    "tgnet::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "tgnet",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgnet.a"
+    },
+    "tgvoip::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "tgvoip",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libtgvoip.a"
+    },
+    "tmessages.49::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "tmessages.49",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/build/intermediates/cxx/Debug/5rs5wq19/obj/x86/libtmessages.49.so",
+      "runtimeFiles": []
+    },
+    "voipandroid::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "voipandroid",
+      "output": "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86/libvoipandroid.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/Azamat/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "S",
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

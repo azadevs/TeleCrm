@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "breakpad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-breakpad-Debug-77f9ac59e7b1615ef0fa.json",
+					"name" : "breakpad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpufeatures::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpufeatures-Debug-1d41fd9bc1042f126bad.json",
+					"name" : "cpufeatures",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flac::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flac-Debug-07c26119db0ac1609cb2.json",
+					"name" : "flac",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openh264::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openh264-Debug-efee0f6900be44513e93.json",
+					"name" : "openh264",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rlottie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rlottie-Debug-9976a3a1ed875567c593.json",
+					"name" : "rlottie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rnnoise::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rnnoise-Debug-34a4e1a71d3b2ce1750b.json",
+					"name" : "rnnoise",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sqlite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sqlite-Debug-2b7658ec91c43effc132.json",
+					"name" : "sqlite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tgcalls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tgcalls-Debug-56312d09650005fb0b0d.json",
+					"name" : "tgcalls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tgcalls_tp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tgcalls_tp-Debug-e498a84465ebc18c7aeb.json",
+					"name" : "tgcalls_tp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tgnet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tgnet-Debug-d06907813ac80d824e13.json",
+					"name" : "tgnet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tgvoip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tgvoip-Debug-37676db449cf7665c369.json",
+					"name" : "tgvoip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tmessages.49::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tmessages.49-Debug-c02be3903c0bdb99b463.json",
+					"name" : "tmessages.49",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voipandroid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voipandroid-Debug-70092025471d7a8ab166.json",
+					"name" : "voipandroid",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/.cxx/Debug/5rs5wq19/x86",
+		"source" : "/Users/Azamat/AndroidStudioProjects/TeleCrm/TMessagesProj/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
