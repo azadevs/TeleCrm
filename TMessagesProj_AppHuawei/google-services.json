@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "795616368931",
-    "project_id": "tgcrm-3f7f4",
-    "storage_bucket": "tgcrm-3f7f4.firebasestorage.app"
+    "project_number": "806297835707",
+    "project_id": "telecrm-75ab4",
+    "storage_bucket": "telecrm-75ab4.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:795616368931:android:ca847d6010ae8598009496",
+        "mobilesdk_app_id": "1:806297835707:android:c5d8201839b4088011719e",
         "android_client_info": {
-          "package_name": "org.tg_crm.messenger"
+          "package_name": "org.tele_crm.messenger"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCb7u_hfb_g8k_HSDENceVrtnYUn-nOLr0"
+          "current_key": "AIzaSyBAZiH0dcJJl0vNsgoXqqkuEZ9D8xXKj_A"
         }
       ],
       "services": {
@@ -26,15 +26,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:795616368931:android:436269c9444f81e1009496",
+        "mobilesdk_app_id": "1:806297835707:android:c9baa03498dc96db11719e",
         "android_client_info": {
-          "package_name": "org.tg_crm.messenger.beta"
+          "package_name": "org.tele_crm.messenger.beta"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCb7u_hfb_g8k_HSDENceVrtnYUn-nOLr0"
+          "current_key": "AIzaSyBAZiH0dcJJl0vNsgoXqqkuEZ9D8xXKj_A"
         }
       ],
       "services": {
@@ -45,15 +45,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:795616368931:android:b3e2c3c4c93aaf34009496",
+        "mobilesdk_app_id": "1:806297835707:android:e9b478af775b6da511719e",
         "android_client_info": {
-          "package_name": "org.tg_crm.messenger.web"
+          "package_name": "org.tele_crm.messenger.web"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCb7u_hfb_g8k_HSDENceVrtnYUn-nOLr0"
+          "current_key": "AIzaSyBAZiH0dcJJl0vNsgoXqqkuEZ9D8xXKj_A"
         }
       ],
       "services": {

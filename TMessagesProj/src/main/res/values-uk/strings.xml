@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">TG CRM</string>
-    <string name="AppNameBeta">TG CRM Beta</string>
+    <string name="AppName">TeleCrm</string>
+    <string name="AppNameBeta">TeleCrm Beta</string>
     <string name="LanguageName">Українська</string>
     <string name="English">Англійська</string>
     <string name="LanguageNameInEnglish">Ukrainian</string>
