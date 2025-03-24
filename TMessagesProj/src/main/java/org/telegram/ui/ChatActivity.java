@@ -3736,9 +3736,9 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
                 }else if(id==add_customer_dont_send){
                     new AddCustomerDialog(context,tgCrmUtilities,CustomerType.CUSTOMER_DONT_SEND.getType()).showDialog();
                 }
-                else if(id==create_balance){
-                    new CreateBalanceDialog(context,tgCrmUtilities,dialog_id,getMessagesController().getFullName(dialog_id)).onCreateDialog();
-                }
+//                else if(id==create_balance){
+//                    new CreateBalanceDialog(context,tgCrmUtilities,dialog_id,getMessagesController().getFullName(dialog_id)).onCreateDialog();
+//                }
             }
         });
         View backButton = actionBar.getBackButton();
@@ -4068,9 +4068,9 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
             if(dialog_id!=-1){
                 headerItem.lazilyAddSubItem(add_customer_dont_send,R.drawable.msg_contact_add,"Tabriki yo'llovchi mijoz");
             }
-            if(dialog_id!=-1){
-                headerItem.lazilyAddSubItem(create_balance,R.drawable.msg_emoji_gem,"Hisob o'rnatish");
-            }
+//            if(dialog_id!=-1){
+//                headerItem.lazilyAddSubItem(create_balance,R.drawable.msg_emoji_gem,"Hisob o'rnatish");
+//            }
             boolean addedSettings = false;
             if (!isTopic) {
                 if (ChatObject.isChannel(currentChat) && !currentChat.creator) {

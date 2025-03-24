@@ -3099,22 +3099,22 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             updatePasscodeButton();
             updateProxyButton(false, false);
         }
-        if (TgCrmUtilities.getCachedUserData(UserCredentialsData.USERNAME).equals("Boshliq")) {
-            balanceItem = menu.addItem(500, R.drawable.msg_emoji_gem);
-            balanceItem.setOnClickListener(v -> {
-                presentFragment(new ManageWorkerBalance());
-            });
-            balanceItem.setOnLongClickListener(v->{
-                tgcrm.fetchSavedBalancesByUsername();
-                presentFragment(new ListBalance());
-                return true;
-            });
-        }else{
-            balanceItem = menu.addItem(500, R.drawable.msg_emoji_gem);
-            balanceItem.setOnClickListener(v -> {
-                new UserBalanceDialog(tgcrm, context).onCreateDialog();
-            });
-        }
+//        if (TgCrmUtilities.getCachedUserData(UserCredentialsData.USERNAME).equals("Boshliq")) {
+//            balanceItem = menu.addItem(500, R.drawable.msg_emoji_gem);
+//            balanceItem.setOnClickListener(v -> {
+//                presentFragment(new ManageWorkerBalance());
+//            });
+//            balanceItem.setOnLongClickListener(v->{
+//                tgcrm.fetchSavedBalancesByUsername();
+//                presentFragment(new ListBalance());
+//                return true;
+//            });
+//        }else{
+//            balanceItem = menu.addItem(500, R.drawable.msg_emoji_gem);
+//            balanceItem.setOnClickListener(v -> {
+//                new UserBalanceDialog(tgcrm, context).onCreateDialog();
+//            });
+//        }
 
         searchItem = menu.addItem(0, R.drawable.ic_ab_search).setIsSearchField(true, false).setActionBarMenuItemSearchListener(new ActionBarMenuItem.ActionBarMenuItemSearchListener() {
             boolean isSpeedItemCreated = false;
